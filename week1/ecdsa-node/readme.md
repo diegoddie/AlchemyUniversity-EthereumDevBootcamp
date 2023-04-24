@@ -1,15 +1,15 @@
-## ECDSA Node
+## 🏄 ECDSA Node
 
 This project is an example of using a client and server to facilitate transfers between different addresses. Since there is just a single server on the back-end handling transfers, this is clearly very centralized. We won't worry about distributed consensus for this project.
 
 However, something that we would like to incoporate is Public Key Cryptography. By using Elliptic Curve Digital Signatures we can make it so the server only allows transfers that have been signed for by the person who owns the associated address.
 
-### Video instructions
+### 📽️ Video instructions
 For an overview of this project as well as getting started instructions, check out the following video:
 
 https://www.loom.com/share/0d3c74890b8e44a5918c4cacb3f646c4
  
-### Client
+### 💻 Client
 
 The client folder contains a [react app](https://reactjs.org/) using [vite](https://vitejs.dev/). To get started, follow these steps:
 
@@ -18,7 +18,7 @@ The client folder contains a [react app](https://reactjs.org/) using [vite](http
 3. Run `npm run dev` to start the application 
 4. Now you should be able to visit the app at http://127.0.0.1:5173/
 
-### Server
+### 💻 Server
 
 The server folder contains a node.js server using [express](https://expressjs.com/). To run the server, follow these steps:
 
@@ -30,11 +30,11 @@ The application should connect to the default server port (3042) automatically!
 
 _Hint_ - Use [nodemon](https://www.npmjs.com/package/nodemon) instead of `node` to automatically restart the server on any changes.
 
-## Goal of the Project
+## 🚀 Goal of the Project
 
 The objective was to implement a verification mechanism utilizing Elliptic Curve Digital Signatures as a Public Key Cryptography technique, which enables the secure transfer of tokens without exposing the private key online.
 
-### How it works
+### 👨‍🚀 How it works
 
 To begin, I added a script to test and generate users, and created three users with their private keys, public keys, and addresses. To view the list of users, run the following command: node server/scripts/users.js. Additionally, you will see a message and its corresponding signature.
 
