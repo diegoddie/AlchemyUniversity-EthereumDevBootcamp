@@ -1,5 +1,16 @@
 # Gift List
 
+## Project Description
+The goal of this project is to demonstrate an understanding of merkle trees by building a client and server system.
+
+The goal of the client is to find out if a certain name is included in a list of names. To do this, I used my expertise in creating merkle trees to create a merkle root and proof.
+
+The client creates a merkle proof and sends it to the server along with the name and merkle root. The server then verifies whether the name is in the merkle tree by reconstructing the merkle root using the provided proof and comparing it to the merkle root given by the client.
+
+To pass a name as a command line argument when running the client, use the following format: node client/index.js "Sidney Kertzmann"
+
+## Requirements
+
 To get started with the repository, clone it and then run `npm install` in the top-level directory to install the depedencies.
 
 There are three folders in this repository:
